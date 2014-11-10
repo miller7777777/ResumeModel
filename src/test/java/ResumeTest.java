@@ -8,5 +8,7 @@ public class ResumeTest extends Assert {
     @Test
     public void test1() {
         Resume resume = new Resume();
+        resume.header = "Java Junior Developer";
+        resume.human() = new Human();
     }
 }
